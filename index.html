@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Chinmaya Vidyalaya</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#alumni">Alumni</a></li>
+        <li><a href="#contactUs">Contact Us</a></li>
+      </ul>
+    </div>
+</nav>
+
+<div class="announcement">
+  <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+    ***  Feel free to ask queries on chinmaya vidyalaya@gmail.com  ***
+    </marquee>
+</div>
+
+<iframe id="video" src="https://www.youtube.com/watch?v=qsryNPqJ0bM"></iframe>
+  
+<div class="container">
+
+	<div class="page-header" id="achievements">
+  		<h2 class="text-capitalize">school achievements</h2>
+  </div>
+
+<div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1" >
+    Khel Milan <i class="fa fa-sort-desc" ></i>
+  </div>
+
+  <div id="school_achievement1" class="collapse">
+
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+	  		<img src="http://vkd.chintvm.edu.in/Files/CBSE/Achievements/IMG-20181118-WA0001.jpg" class="img-responsive img-thumbnail"> 
+	  </div>
+
+	  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text" >
+		  <h5 class="text-success text-left text-capitalize">
+            Our student Abhijith K C bagged the first place in khel milan badminton contest in senior category. Our student Rahul R S secured third place.
+      </h5>
+	  </div>
+  </div>
+
+  <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2" >
+   Keraleeyam 2018<i class="fa fa-sort-desc" ></i>
+  </div>
+
+  <div id="school_achievement2" class="collapse">
+	 
+   <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+  		<img src="http://vkd.chintvm.edu.in/Files/CBSE/Achievements/IMG-20181126-WA0006.jpg" class="img-responsive img-thumbnail" >
+  	</div>
+
+  	<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text" >
+      <h5 class="text-success text-left text-capitalize">
+        In the keraleeyam quiz conducted by Chinmaya Vidyalaya, Naruvamood, our students, Vijay Sankar & Karthik Lal bagged the first place.
+      </h5>
+    
+  	</div>
+  </div>
+
+
+
+  <div class="bg-primary  movie_head" data-toggle="collapse" data-target="#school_achievement3" >
+    Inter School Science Project Competition<i class="fa fa-sort-desc" ></i>
+  </div>
+
+  <div id="school_achievement3" class="collapse">
+    
+	 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+  		<img src="https://i.postimg.cc/zXzS67cY/sm3.jpg" class="img-responsive img-thumbnail" >
+  	</div>
+
+  	<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text" >
+      <h5 class="text-success text-left text-capitalize">Won second price in inter school Science Project competition
+      </h5>
+      <p>Write about this achievement</p>
+  	</div>
+  </div>
+
+
+ 
+
+  <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="alumni">
+      <h2 class="text-capitalize ">Our Alumni</h2>
+  </div>
+
+
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni1">
+    <img src="https://www.google.com/search?q=swami+chinmayananda&rlz=1C1GEWG_enIN961IN961&sxsrf=ALeKk03X65qHS7sUmQwCWXo3WG33OouyOA:1627984763768&tbm=isch&source=iu&ictx=1&fir=MmSThTpji-4RbM%252CinhyHj9TAmvEXM%252C%252Fm%252F01rymp&vet=1&usg=AI4_-kTmvEPzscfMjrn070-gbpBFry5NuA&sa=X&ved=2ahUKEwiW3qzsy5TyAhX1X3wKHX33CtEQ_B16BAg8EAE#imgrc=MmSThTpji-4RbM" class="img-responsive">
+    <hr >
+    <p class="text-primary">Swami chinmayananda</p>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="school_alumni1">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content" >
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Swami chinmayananda</h4>
+        </div>
+        
+        <div class="modal-body">
+          <img src="https://www.google.com/search?q=swami+chinmayananda&rlz=1C1GEWG_enIN961IN961&sxsrf=ALeKk03X65qHS7sUmQwCWXo3WG33OouyOA:1627984763768&tbm=isch&source=iu&ictx=1&fir=MmSThTpji-4RbM%252CinhyHj9TAmvEXM%252C%252Fm%252F01rymp&vet=1&usg=AI4_-kTmvEPzscfMjrn070-gbpBFry5NuA&sa=X&ved=2ahUKEwiW3qzsy5TyAhX1X3wKHX33CtEQ_B16BAg8EAE#imgrc=MmSThTpji-4RbM" class="img-responsive img_modal">
+          <p class="p_modal">He is the founder and the principal of chinmaya vidyalaya<br>
+         
+           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+    <h2 class="text-capitalize ">Contact Us</h2>
+</div>
+
+    <div id="map">
+      <iframe src="https://www.google.com/maps/place/Chinmaya+Vidyalaya/@17.4379892,78.4555874,16z/data=!4m5!3m4!1s0x0:0x3360f183bb735b07!8m2!3d17.4352004!4d78.4596102" height="450" frameborder="0"  allowfullscreen=""></iframe>
+    </div>
+      <div id="details">
+        <h3>Principal Name: </h3>
+        <h4>Swami Chinmaya Nanda</h4>
+            <div class="contact_1" >
+               <a href="mailto:Chinmaya Vidyalaya@gmail.com?Subject=Hi">
+                
+               </a> 
+            </div>
+          </div>
+  </div>
+  <div id="footer"></div>
+
+</body>
+</html>
